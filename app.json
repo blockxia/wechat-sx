@@ -16,15 +16,21 @@
     "list": [
       {
         "pagePath": "pages/home/home",
-        "text": "首页"
+        "text": "首页",
+        "iconPath": "pages/images/tab/yuedu.png",
+        "selectedIconPath": "pages/images/tab/yuedu_hl.png"
       },
       {
         "pagePath": "pages/order/order",
-        "text": "订单"
+        "text": "订单",
+        "iconPath": "pages/images/tab/dianying.png",
+        "selectedIconPath": "pages/images/tab/dianying_hl.png"
       },
       {
         "pagePath": "pages/profile/profile",
-        "text": "我的"
+        "text": "我的",
+        "iconPath": "pages/images/tab/ciwei.png",
+        "selectedIconPath": "pages/images/tab/ciwei_hl.png"
       }
     ]
   }
