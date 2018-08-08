@@ -25,10 +25,10 @@
     </view>
     <view class="date_ruzhu">
       <view class="date_left">
-        <view>
+        <view class="small_gray">
           <text>入住日期</text>
         </view>
-        <view>
+        <view class="big_green">
           <text>08月11日</text>
         </view>
       </view>
@@ -36,16 +36,16 @@
         <text>共1晚</text>
       </view>
       <view class="date_right">
-        <view>
+        <view class="small_gray kaoyou">
           <text>离店日期</text>
         </view>
-        <view>
+        <view class="big_green">
           <text>08月12日</text>
         </view>
       </view>
     </view>
     <button class="font_white">查询酒店</button>
-    <view class="info">
+    <view class="info small_gray">
       <text>官方渠道预定享低价保证</text>
     </view>
   </view>
@@ -55,7 +55,7 @@
      <image></image>
     </view>
     <view class="kefu_phone_right">
-      <view>
+      <view class="small_gray">
         <text>24小时客服电话</text>
       </view>
       <view class="big">
