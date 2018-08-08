@@ -1,0 +1,25 @@
+<!--pages/home.wxml-->
+
+<view class='wrap'>
+  <view class='img_wrap'>
+    <view class='bg_img'>
+       <image src='../images/WechatIMG127.jpeg' class='img_floor'></image> 
+    </view>
+    <view class='center_img'>
+      <image src='../images/SubstandardFullSizeRender.jpg' class='img_up'></image>
+    </view>
+  </view>
+  <view class='mask_search'>
+    <view class='gray'>
+      <text>城市/</text>
+      <text>城市/</text>
+      <text>城市</text>
+      <text>城市</text>
+      <text>城市</text>
+    </view>
+  </view>
+
+  <view>
+
+  </view>
+</view>
