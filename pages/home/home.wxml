@@ -10,16 +10,58 @@
     </view>
   </view>
   <view class='mask_search'>
-    <view class='gray'>
-      <text>城市/</text>
-      <text>城市/</text>
-      <text>城市</text>
-      <text>城市</text>
-      <text>城市</text>
+    <view class='gray_font'>
+     <view class="left">
+       <text>城市</text>
+       <text>/</text>
+       <text>位置</text>
+       <text>/</text>
+       <text>商圈</text>
+     </view>
+      <view class="right">
+        <text class="iconfont icon-dizhiguanli green_font" ></text>
+        <text class="green_font">附近</text>
+      </view>
+    </view>
+    <view class="date_ruzhu">
+      <view class="date_left">
+        <view>
+          <text>入住日期</text>
+        </view>
+        <view>
+          <text>08月11日</text>
+        </view>
+      </view>
+      <view class="date_center">
+        <text>共1晚</text>
+      </view>
+      <view class="date_right">
+        <view>
+          <text>离店日期</text>
+        </view>
+        <view>
+          <text>08月12日</text>
+        </view>
+      </view>
+    </view>
+    <button class="font_white">查询酒店</button>
+    <view class="info">
+      <text>官方渠道预定享低价保证</text>
     </view>
   </view>
 
-  <view>
+  <view class="kefu_phone">
+    <view class="kefu_phone_left">
+     <image></image>
+    </view>
+    <view class="kefu_phone_right">
+      <view>
+        <text>24小时客服电话</text>
+      </view>
+      <view class="big">
+        <text>400-168-8888</text>
+      </view>
 
+    </view>
   </view>
 </view>

@@ -3,7 +3,7 @@
 
 .wrap{
   width: 100%;
-  background-color: rgba(213,213,213,1);
+  background-color: rgba(255,255,255,1);
 }
 
 .bg_img{
@@ -50,5 +50,30 @@ position: relative;
   position: absolute;
   margin-left: 48rpx;
   border-radius: 20rpx;
+  box-shadow: 0rpx 10rpx 20rpx 0rpx rgba(0,0,0,0.05);
 }
 
+.gray_font{
+  width:90% ;
+  height: 106rpx;
+  box-sizing: border-box;
+  /*padding: 20rpx;*/
+  border-bottom: solid 1px #aaaaaa;
+  margin:20rpx auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+text{
+  margin-right: 10rpx;
+}
+.left{
+  width: 250 rpx;
+  line-height: 106rpx;
+  color: #AAAAAA;
+}
+.right{
+  width: 60 rpx;
+  line-height: 106rpx;
+  color: #0AC3C8;
+}
