@@ -46,7 +46,7 @@ position: relative;
   height: 456rpx;
   background: #fff;
   margin:-120rpx auto; 
-  position: absolute;
+   position: absolute; 
   margin-left: 48rpx;
   border-radius: 20rpx;
   box-shadow: 0rpx 10rpx 20rpx 0rpx rgba(0,0,0,0.05);
@@ -151,16 +151,44 @@ position: relative;
   line-height:80rpx ;
 }
 .kefu_phone{
+  
   width: 100%;
-  height: 80rpx;
-  background: #000;
- position: fixed;
-  bottom: 100rpx;
+  height: 86rpx;
+  line-height: 86rpx;
+   /* background: #000;  */
+  position: fixed;
+  bottom: 50rpx;
   left: 0;
   z-index: 2;
+  /* box-sizing: border-box;
+  padding: 10rpx */
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.delivery{
+  height: 34rpx
+}
+.big{
+  color: #AAAAAA
 }
 .kefu_phone_right{
-  height: 40rpx;
-  width: 60%;
+  height: 86rpx;
+  width: 300rpx;
   line-height: 40rpx;
+}
+.kefu_phone_left{
+  height: 86rpx;
+  width: 88rpx;
+  line-height: 40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  margin-right: 20rpx
+}
+.callP{
+  display: inline-block;
+  vertical-align: middle;
+  height: 86rpx;
+  width: 88rpx;
 }

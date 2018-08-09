@@ -52,10 +52,10 @@
 
   <view class="kefu_phone">
     <view class="kefu_phone_left">
-     <image></image>
+     <image class='callP' src='../images/home/hotel_pl@3x.png'></image>
     </view>
     <view class="kefu_phone_right">
-      <view class="small_gray">
+      <view class="small_gray delivery">
         <text>24小时客服电话</text>
       </view>
       <view class="big">
